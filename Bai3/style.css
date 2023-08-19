@@ -1,0 +1,213 @@
+.main {
+    background: url(https://img2.thuthuatphanmem.vn/uploads/2018/12/30/background-dep-lam-khung-anh_110341384.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    .header {
+        .nav {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            margin-top: 0;
+            .back-ground {
+                background-image: url(https://img.pikbest.com/png-images/qianku/plants-and-flowers-decoration-arabic-numeral-19_2264365.png!f305cw);
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-top: 20px;
+                background-size: cover;
+                background-position: center;
+            }
+            .menu {
+                display: flex;
+                margin-top: 33px;
+                .bt {
+                    margin: 0 20px;
+                    outline: none;
+                    border: none;
+                    background: transparent;
+                    font-size: 1.2rem;
+                    align-items: center;
+                    cursor: pointer;
+                }
+                .bt:hover {
+                    color: red;
+                }
+                .footer-home {
+                    border-bottom: 2px solid #1162fb;
+                }
+                .buy {
+                    display: flex;
+                    font-size: 1.2rem;
+                    align-items: center;
+                    background-color: #1162fb;
+                    color: white;
+                    border-radius: 10px;
+                    padding: 10px 10px;
+
+                    .ticket {
+                        padding-right: 10px;
+                    }
+                }
+                .home {
+                    color: black;
+                }
+            }
+        }
+        .name {
+            display: flex;
+            justify-content: center;
+            color: #1162fb;
+            .title {
+                font-size: 1.8rem;
+                line-height: 4rem;
+                font-weight: 600;
+            }
+        }
+        .birthday {
+            display: flex;
+            justify-content: center;
+            .icon-calendar {
+                font-size: 1.4rem;
+                padding: 10px 10px 0 10px;
+            }
+        }
+    }
+    .content {
+        .background {
+            height: 300px;
+            width: 350px;
+            background-color: white;
+            margin-left: 550px;
+            border-radius: 10px;
+            .title {
+                font-size: 1.6rem;
+                font-weight: 200;
+                text-align: center;
+                padding: 10px 0;
+                line-height: 2rem;
+            }
+            .inimformation {
+                .imformation {
+                    width: 90%;
+                    outline: none;
+                    border: none;
+                    margin-left: 15px;
+                    padding: 10px 0;
+                    line-height: 1.2rem;
+                    border-bottom: 1px solid #ccc;
+                }
+                .fix-height {
+                    margin-top: 10px;
+                }
+            }
+            .opsition {
+                margin: 10px 10px;
+                .check-information {
+                    padding-top: 5px;
+                }
+            }
+            .btn {
+                margin-top: 25px;
+                .btn-submit {
+                    width: 90%;
+                    margin-left: 15px;
+                    line-height: 2rem;
+                    font-size: 1.1rem;
+                    border-radius: 10px;
+                    background-color: #1162fb;
+                    color: white;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .fix-footer {
+        height: 220px;
+    }
+    .footer {
+        height: 200px;
+        width: 800px;
+        background-color: aquamarine;
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+        background-color: #1162fb;
+        margin-left: 320px;
+        border-radius: 10px;
+        .body-footer {
+            display: flex;
+            margin-left: 60px;
+        }
+        .address {
+            color: white;
+            margin-top: 30px;
+            width: 150px;
+            .icon {
+                text-align: justify;
+            }
+            .title {
+                text-align: justify;
+                margin-top: 20px;
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .imformation {
+                text-align: justify;
+            }
+        }
+        .plane {
+            color: white;
+            width: 150px;
+            margin: 30px 20px;
+            .icon {
+                text-align: justify;
+            }
+            .title {
+                text-align: justify;
+                margin-top: 20px;
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .imformation {
+                text-align: justify;
+            }
+        }
+        .hotel {
+            color: white;
+            margin: 30px 20px;
+            width: 150px;
+            .icon {
+                text-align: justify;
+            }
+            .title {
+                text-align: justify;
+                margin-top: 20px;
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .imformation {
+                text-align: justify;
+            }
+        }
+        .restaurent {
+            color: white;
+            margin-top: 30px;
+            width: 150px;
+            .icon {
+                text-align: justify;
+            }
+            .title {
+                text-align: justify;
+                margin-top: 20px;
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .imformation {
+                text-align: justify;
+            }
+        }
+    }
+}
