@@ -1,0 +1,198 @@
+.web {
+    height: 850px;
+    position: relative;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(#ef136c, #fe6802);
+}
+/* background-image: linear-gradient(#ef136c, #fe6802): Hiệu ứng chuyên chuyển màu ( mặc định là chuyển từ trên xuống dưới) */
+.circle-1 {
+    background-image: linear-gradient(#ef136c, #fe6802);
+    position: absolute;
+    border-radius: 50%;
+    height: 1000px;
+    width: 1000px;
+    left: -25%;
+    bottom: -46%;
+}
+.circle-2 {
+    background-image: linear-gradient(#ef136c, #fe6802);
+    position: absolute;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    right: 95px;
+    bottom: -15%;
+}
+.circle-3 {
+    background-image: linear-gradient(#ef136c, #fe6802);
+    position: absolute;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    right: 550px;
+    top: -15%;
+}
+.circle-4 {
+    background-image: linear-gradient(#ef136c, #fe6802);
+    position: absolute;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    right: -222px;
+    top: -32%;
+}
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4b1908;
+    height: 75px;
+    z-index: 2;
+}
+.title-header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 300px;
+    font-size: 6.5rem;
+    flex-wrap: wrap;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    font-family: Catamaran - Google Fonts;
+}
+.title-header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+    flex-wrap: wrap;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    font-family: Catamaran - Google Fonts;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.button1 {
+    padding: 30px 50px;
+    color: white;
+    font-size: 1.4rem;
+    background-color: #ee0979;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: #b70f60;
+}
+.header-left {
+    color: white;
+    margin-left: 150px;
+    align-items: center;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: Catamaran - Google Fonts;
+}
+.header-right {
+    color: #9e8082;
+    display: flex;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+.sign:hover {
+    color: white;
+}
+.log-in:hover {
+    color: white;
+}
+.sign {
+    padding: 0 30px;
+    cursor: pointer;
+}
+.log-in {
+    cursor: pointer;
+}
+.image-1 {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+}
+.left {
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 170px;
+}
+.title {
+    font-size: 3.4rem;
+    padding: 20px 0;
+}
+.text {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-family: Lato - Google Fonts;
+    width: 600px;
+}
+.right1 {
+    background: url(https://test-1-phuonghight.vercel.app/assets/img/01.jpg);
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 215px;
+    margin-top: 50px;
+}
+
+.right2 {
+    background: url(https://test-1-phuonghight.vercel.app/assets/img/02.jpg);
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.left2 {
+    width: 500px;
+    margin-right: 215px;
+    margin-top: 170px;
+}
+.right3 {
+    background: url(https://test-1-phuonghight.vercel.app/assets/img/03.jpg);
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 215px;
+    margin-top: 50px;
+}
+.image-bottom {
+    margin-bottom: 50px;
+}
+.buttom {
+    height: 120px;
+    background-color: black;
+}
+.imformation {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 1.2rem;
+}
