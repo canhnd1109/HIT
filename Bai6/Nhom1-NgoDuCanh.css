@@ -4,6 +4,7 @@
     left: 0;
     right: 0;
     background-image: linear-gradient(#ef136c, #fe6802);
+    overflow: hidden;
 }
 /* background-image: linear-gradient(#ef136c, #fe6802): Hiệu ứng chuyên chuyển màu ( mặc định là chuyển từ trên xuống dưới) */
 .circle-1 {
