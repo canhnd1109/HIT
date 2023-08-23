@@ -1,0 +1,186 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header-left {
+    background-image: url(https://avatars.githubusercontent.com/u/54365408?s=280&v=4);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 40px;
+}
+.header-middle {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.menu {
+    font-size: 1.2rem;
+    font-size: 2rem;
+    color: #f06c25;
+    margin: 0 5px;
+}
+.item {
+    padding: 0 40px;
+    border-radius: 15px;
+}
+.list-course {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: white;
+    color: #f06c25;
+    width: 185px;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.course {
+    position: relative;
+}
+
+.course:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.course:hover .list-course {
+    display: block;
+}
+.list-course-item {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.home {
+    margin-right: 52px;
+}
+.home:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.about-us {
+    margin-left: 40px;
+}
+.about-us:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.contact:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.website:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.cplus:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.python:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.java:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.photoshop:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.html:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.css:hover {
+    background-color: #f06c25;
+    color: white;
+}
+.javascript:hover {
+    background-color: #f06c25;
+    color: white;
+}
+
+.list-course-web {
+    display: none;
+    position: absolute;
+    margin-left: 375px;
+    background-color: white;
+    color: #f06c25;
+    width: 190px;
+    padding: 0;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.website:hover .list-course-web {
+    display: block;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+.web {
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid #ff0000;
+    padding: 10px 20px 10px 20px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.footer {
+    height: 280px;
+    background-color: #f06c25;
+}
+.logo-hit {
+    background-image: url(https://avatars.githubusercontent.com/u/54365408?s=280&v=4);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 50%;
+}
+.header-footer {
+    padding-top: 20px;
+}
+.logo-hit-bottom {
+    border-bottom: 1px solid white;
+}
+.imformaton-hit {
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+.address {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    height: 640px;
+    margin-bottom: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/364168880_831554348793052_2555963006566457755_n.png?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=M4wJYCS3lRsAX8QZ2-1&_nc_ht=scontent.fhan5-9.fna&oh=00_AfCJh-RDfWD2QXvsvQX_fvVnw85frR3lTAjmYY5MW3Wtmw&oe=64EAFCEA);
+}
+.boder {
+    width: 80px;
+    border: 1px solid #f06c25;
+    margin-top: 35px;
+    margin-left: -170px;
+}

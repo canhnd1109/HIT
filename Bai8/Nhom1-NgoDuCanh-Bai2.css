@@ -1,0 +1,116 @@
+.body {
+    background-image: linear-gradient(#ef136c, #fe6802);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.birthday-image {
+    background-image: url(https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/364140964_831545942127226_4612099346216929698_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=9GMgJ8qes3UAX83MROD&_nc_ht=scontent.fhan5-10.fna&oh=00_AfCYqbVGYcGnIb7PFnil3QX1K4inuaJ0fMovYAVuTAEqmQ&oe=64E26CE3);
+    height: 230px;
+    width: 230px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -600px;
+    margin-left: -425px;
+}
+.treval-image {
+    background-image: url(https://scontent.fhan5-1.fna.fbcdn.net/v/t39.30808-6/343431541_787273575992880_6950198603748680694_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=f_ttZPWrVx4AX86Ljxm&_nc_ht=scontent.fhan5-1.fna&oh=00_AfAhX80t5FbuakGdw1ybP3NP6lTEMpwpcbWMi04vnaeHOA&oe=64E9D760);
+    height: 230px;
+    width: 230px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    margin-right: -325px;
+    margin-bottom: -590px;
+}
+.square {
+    height: 500px;
+    width: 400px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 10px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 1;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.outline-logo-hit {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 10px;
+    margin: 40px 0 0 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-hit {
+    border-radius: 50%;
+    background-image: url(https://avatars.githubusercontent.com/u/54365408?s=280&v=4);
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+}
+.title1 {
+    margin-top: -25px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+}
+.title2 {
+    margin-top: -65px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+}
+.outline-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+.youtube {
+    color: red;
+}
+.facebook {
+    color: #1162fb;
+}
+.google {
+    color: yellow;
+}
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.button {
+    height: 45px;
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 10px;
+}
+.message {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+}

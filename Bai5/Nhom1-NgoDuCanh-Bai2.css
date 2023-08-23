@@ -70,8 +70,7 @@
     margin: 0 15px;
     cursor: pointer;
 }
-.course-web {
-}
+
 .web-image {
     background-image: url(https://img.freepik.com/free-icon/html5_318-225260.jpg?t=st=1692180983~exp=1692181583~hmac=18a7a17c90bb18ced7082efdc5a06826cae9477bea78a6b364e33edf6788b137);
     height: 100px;
@@ -111,15 +110,7 @@
 .imformaton {
     margin-left: 15px;
 }
-.title-class {
-}
-.time {
-}
-.calendar-course {
-}
 
-.body {
-}
 .birthday {
     display: flex;
     margin: 40px 100px;
