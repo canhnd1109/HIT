@@ -84,7 +84,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 15px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .youtube {
     color: red;
@@ -94,6 +94,9 @@
 }
 .google {
     color: yellow;
+}
+.whatapp {
+    color: #26ca63;
 }
 .btn {
     display: flex;

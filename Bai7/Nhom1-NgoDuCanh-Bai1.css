@@ -9,6 +9,7 @@
     background-size: cover;
     background-position: center;
     margin-right: 40px;
+    cursor: pointer;
 }
 .header-middle {
     display: flex;
