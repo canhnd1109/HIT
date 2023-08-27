@@ -85,6 +85,7 @@
     align-items: center;
     margin: 0 15px;
     font-size: 1.4rem;
+    cursor: pointer;
 }
 .youtube {
     color: red;
@@ -111,6 +112,7 @@
     border-radius: 10px;
     background-color: transparent;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 10px;
+    cursor: pointer;
 }
 .message {
     font-size: 1.1rem;

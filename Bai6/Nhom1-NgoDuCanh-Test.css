@@ -1,11 +1,11 @@
 @font-face {
     font-family: Catamaran;
-    src: url('/Bai6/font/Catamaran-VariableFont_wght.ttf');
+    src: url('/Bai6/font-Test/Catamaran-VariableFont_wght.ttf');
     font-weight: 800;
 }
 @font-face {
     font-family: Lato-Light;
-    src: url('/Bai6/font/Lato-Light.ttf');
+    src: url('/Bai6/font-Test/Lato-Light.ttf');
     width: 600;
 }
 
