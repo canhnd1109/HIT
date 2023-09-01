@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    /* tạo số cột */
+    /* grid-template-columns: calc(33.33%-30px) calc(33.33%-30px) calc(33.33%-30px); */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* tạo số dòng */
+    /* grid-template-rows: 60px 100px 50px; */
+
+    /* grid-row-gap: 30px;
+    grid-column-gap: 30px; */
+    /* overflow: hidden; */
+    grid-gap: 30px 20px;
+    padding: 20px;
+    /* grid-template-areas:
+        'h1 h2 h2 h3'
+        'h2 h4 h5 h6'
+        'h1 h7 h8 h6'; */
+}
+.grid-item {
+    background-color: red;
+    min-height: 60px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+.box-1 {
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
+    grid-column: 1/2;
+    grid-row: 1/4;
+    /* grid-area: h1; */
+}
+.box-2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    /* grid-area: h2; */
+}
+.box-3 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    /* grid-area: h3; */
+}
+.box-4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    /* grid-area: h4; */
+}
+.box-5 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    /* grid-area: h5; */
+}
+.box-6 {
+    grid-column: 4/5;
+    grid-row: 2/4;
+    /* grid-area: h6; */
+}
+.box-7 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    /* grid-area: h7; */
+}
+.box-8 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    /* grid-area: h8; */
+}
